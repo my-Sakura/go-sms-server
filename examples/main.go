@@ -6,5 +6,5 @@ import (
 
 func main() {
 	client := api.NewClient()
-	client.Send("17731895913", 6)
+	client.Send("mobile", 6)
 }
