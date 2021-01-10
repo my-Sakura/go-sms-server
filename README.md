@@ -10,7 +10,7 @@
   - [dingxin](https://github.com/my-sakura/sms-server#dingxin)
 - [Install](https://github.com/my-Sakura/sms-server#install)
 - [Usage](https://github.com/my-Sakura/sms-server#usage)
-  - [Generator](https://github.com/my-sakura/sms-server)
+  - [Generator](https://github.com/my-Sakura/sms-server#generator)
 - [API](https://github.com/my-Sakura/sms-server#api)
 - [Examples](https://github.com/my-Sakura/sms-server#example)
 - [License](https://github.com/my-Sakura/sms-server#license)
