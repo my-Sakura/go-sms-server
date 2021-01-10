@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-- [support](https://github.com/my-Sakura/sms-server#support)
+- [smsProvider](https://github.com/my-Sakura/sms-server#support)
   - [tianyan](https://github.com/my-sakura/sms-server#tianyan)
   - [dingxin](https://github.com/my-sakura/sms-server#dingxin)
 - [Install](https://github.com/my-Sakura/sms-server#install)
@@ -15,7 +15,7 @@
 - [Examples](https://github.com/my-Sakura/sms-server#example)
 - [License](https://github.com/my-Sakura/sms-server#license)
 
-## support
+## smsProvider
 ### tianYan
 
   https://market.aliyun.com/products/57000002/cmapi00039249.html
@@ -27,7 +27,9 @@
 
 ## Usage
 
-Set
+1. modify [config.yaml](https://github.com/my-Sakura/sms-server/blob/main/config/config.yaml) file
+   select [smsProvider](https://github.com/my-Sakura/sms-server#smsProvider)
+2. 
 
 ### Generator
 
