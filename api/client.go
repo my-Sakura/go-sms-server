@@ -15,6 +15,7 @@ type client struct {
 	TemplateCode string `yaml: "templateCode"`
 }
 
+//New a client
 func NewClient() *client {
 	var c client
 
