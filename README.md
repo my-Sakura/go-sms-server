@@ -1,6 +1,4 @@
-# sms-server
-
-provider: 
+# sms-server 
 
 provider:
  -tianYanURL: https://market.aliyun.com/products/57000002/cmapi00039249.html
