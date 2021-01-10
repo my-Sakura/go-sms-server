@@ -1,10 +1,5 @@
-module github.com/my-Sakura/SMS
+module github.com/my-Sakura/go-sms-server
 
-go 1.14
+go 1.15
 
-require (
-	github.com/aliyun/alibaba-cloud-sdk-go v1.61.567
-	github.com/gin-gonic/gin v1.6.3
-	github.com/go-sql-driver/mysql v1.5.0
-	github.com/spf13/viper v1.7.1
-)
+require github.com/spf13/viper v1.7.1
