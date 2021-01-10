@@ -6,5 +6,5 @@ require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.567
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/spf13/viper v1.7.1 // indirect
+	github.com/spf13/viper v1.7.1
 )
