@@ -1,5 +1,5 @@
 # support tianyan、dingxin
-name: provider
+smsProvider: your_provider
 appCode: your_appCode
 templateCode: your_templateCode
 
