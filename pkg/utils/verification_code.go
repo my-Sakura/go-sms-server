@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+//GetCode generate rand verification code
 func GetCode(length int) string {
 	var code string
 	rand.Seed(time.Now().Unix())
