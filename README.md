@@ -82,4 +82,4 @@ To see how the specification has been applied, see the [Examples](https://github
 
 ## License
 
-[MIT](https://github.com/my-Sakura/sms-server/blob/main/LICENSE) © my-Sakura
+[MIT](https://github.com/my-Sakura/sms-server/blob/main/LICENSE) © my-Sakura :heart: :star: :sparkles: :dizzy:
