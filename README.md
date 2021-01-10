@@ -39,4 +39,4 @@ To see how the specification has been applied, see the [Examples](https://github
 
 # License
 
-MIT © my-Sakura
+[MIT](https://github.com/my-Sakura/sms-server/blob/main/LICENSE) © my-Sakura
