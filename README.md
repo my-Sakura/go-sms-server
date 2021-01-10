@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-- [smsProvider](https://github.com/my-Sakura/sms-server#support)
+- [smsProvider](https://github.com/my-Sakura/sms-server#smsprovider)
   - [tianyan](https://github.com/my-sakura/sms-server#tianyan)
   - [dingxin](https://github.com/my-sakura/sms-server#dingxin)
 - [Install](https://github.com/my-Sakura/sms-server#install)
@@ -27,11 +27,20 @@
 
 ## Usage
 
-1. modify [config.yaml](https://github.com/my-Sakura/sms-server/blob/main/config/config.yaml) file
-   select [smsProvider](https://github.com/my-Sakura/sms-server#smsProvider)
-2. 
+1. select [smsProvider](https://github.com/my-Sakura/sms-server#smsprovider)
+   选择短信 API 服务商，目前支持 [tianyan](https://market.aliyun.com/products/57000002/cmapi00039249.html) 和 [dingxin](https://market.aliyun.com/products/56928004/cmapi023305.html)，记录供应商名称(全部小写)，之后会用到
+2. 进入云市场购买产品，购买完之后申请模板，记录 templateCode 和 appCode, eg:
+3. 修改 [config.yaml](https://github.com/my-Sakura/sms-server/blob/main/config/config.yaml) 文件
+   将记录下的 smsProvider、templateCode、appCode 写入 config.yaml 文件中
+4. 调用 API
 
-### Generator
+   ```
+   client := api.NewClient()
+   err := client.Send(phone_number, verification_code_length)    
+   if err != nil {
+      log.Println(err)
+      }
+   ```
 
 ## API
 
@@ -40,6 +49,22 @@ To see how the specification has been applied, see the [API](https://github.com/
 ## Example
 
 To see how the specification has been applied, see the [Examples](https://github.com/my-Sakura/sms-server/tree/main/examples) directory.
+
+   ```
+   package main
+   
+   import (
+       "github.com/my-Sakura/sms-server/api"
+   )
+   
+   func main() {
+   client := api.NewClient()
+   err := client.Send(phone_number, 6)    
+   if err != nil {
+      log.Println(err)
+      }
+   }
+   ```
 
 ## License
 
