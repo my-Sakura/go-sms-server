@@ -1,8 +1,9 @@
 # sms-server 
 
+[![](https://www.github.com/my-sakura/sms-server)](https://www.github.com/my-sakura/sms-server)
 <a href = https://www.github.com/my-sakura/sms-server><img src = "https://img.shields.io/badge/readme%20style-standard-green"></a>
 <a href = https://goreportcard.com/report/github.com/my-sakura/sms-server><img src="https://goreportcard.com/badge/github.com/my-sakura/sms-server"></a>
-  
+  [![Go Report Card](https://goreportcard.com/badge/github.com/my-sakura/sms-server)](https://goreportcard.com/report/github.com/my-sakura/sms-server)
 # Table of Contents
 
 - [support](https://github.com/my-Sakura/sms-server#support)
