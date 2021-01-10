@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/my-Sakura/SMS/api"
+	"github.com/my-Sakura/go-sms-server/api"
 )
 
 func main() {
