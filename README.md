@@ -41,6 +41,7 @@
   ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage%20(3).png)
    
   记录 appCode
+  
   ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage.png)
   
 3.修改 [config.yaml](https://github.com/my-Sakura/sms-server/blob/main/config/config.yaml) 文件
