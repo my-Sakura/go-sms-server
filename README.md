@@ -31,17 +31,17 @@
    选择短信 API 服务商，目前支持 [tianyan](https://market.aliyun.com/products/57000002/cmapi00039249.html) 和 [dingxin](https://market.aliyun.com/products/56928004/cmapi023305.html)，记录供应商名称(全部小写)，之后会用到
    
 2.进入云市场购买产品，购买完之后申请模板，记录 templateCode 和 appCode, eg:
-  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage%20(4).png)
+  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/first.png)
    
-  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage%20(1).png)
+  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/second.png)
    
   联系客服申请模板，获得 templateCode
-  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage%20(2).png)
+  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/third.png)
    
-  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage%20(3).png)
+  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/fourth.png)
    
   记录 appCode
-  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/usage.png)
+  ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/fifth.png)
   
 3.修改 [config.yaml](https://github.com/my-Sakura/sms-server/blob/main/config/config.yaml) 文件
   将记录下的 smsProvider、templateCode、appCode 写入 config.yaml 文件中
@@ -82,4 +82,4 @@ To see how the specification has been applied, see the [Examples](https://github
 
 ## License
 
-[MIT](https://github.com/my-Sakura/sms-server/blob/main/LICENSE) © my-Sakura
+[MIT](https://github.com/my-Sakura/sms-server/blob/main/LICENSE) © my-Sakura :heart: :star: :sparkles: :dizzy:
