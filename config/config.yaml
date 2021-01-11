@@ -1,6 +1,6 @@
 # support tianyan、dingxin
-smsProvider: your_provider
-appCode: your_appCode
-templateCode: your_templateCode
+smsProvider: tianyan
+appCode: 4c576b3341754ec2a8db38e6f70c1da9
+templateCode: M09DD535F4
 
 
