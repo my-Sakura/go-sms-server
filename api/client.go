@@ -10,7 +10,7 @@ import (
 )
 
 type client struct {
-	Name         string `yaml: "name"`
+	SMSProvider         string `yaml: "smsProvider"`
 	AppCode      string `yaml: "appCode"`
 	TemplateCode string `yaml: "templateCode"`
 }
