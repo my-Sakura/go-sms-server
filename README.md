@@ -10,7 +10,6 @@
 - [smsProvider](https://github.com/my-Sakura/sms-server#smsprovider)
   - [tianyan](https://github.com/my-sakura/sms-server#tianyan)
   - [dingxin](https://github.com/my-sakura/sms-server#dingxin)
-- [Install](https://github.com/my-Sakura/sms-server#install)
 - [Usage](https://github.com/my-Sakura/sms-server#usage)
 - [result](https://github.com/my-Sakura/go-sms-server#succeed)
 - [API](https://github.com/my-Sakura/sms-server#api)
@@ -26,8 +25,6 @@
 
   https://market.aliyun.com/products/56928004/cmapi023305.html
   测试模板: TP1711063
-  
-## Install
 
 ## Usage
 
@@ -58,7 +55,7 @@ if err != nil {
 ```
 
 ## succeed
-   ![](https://github.com/my-Sakura/go-sms-server/blob/main/pictures/succeed.png)
+  ![](https://github.com/my-Sakura/go-sms-server/blob/main/pictures/succeed.png)
 ## API
 
 To see how the specification has been applied, see the [API](https://github.com/my-Sakura/sms-server/tree/main/api) directory.
