@@ -19,9 +19,11 @@
 ### tianYan
 
   https://market.aliyun.com/products/57000002/cmapi00039249.html
+  测试模板: M09DD535F4
 ### dingXin
 
   https://market.aliyun.com/products/56928004/cmapi023305.html
+  测试模板: TP1711063
   
 ## Install
 
