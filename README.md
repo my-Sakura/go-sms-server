@@ -72,8 +72,10 @@ import (
 
 func main() {
 ```
-	[comment]<>:(abc)
-	[//]<>:(M09DD535F4 是 tianyan 的测试模版)
+	[](abc)
+	{abc}
+	[//]: <> (M09DD535F4 是 tianyan 的测试模版)
+	[//]: # (M09DD535F4 是 tianyan 的测试模版)
 	<!---
 	M09DD535F4 是 tianyan 的测试模版
 	-->
