@@ -6,41 +6,28 @@ import (
 	"net/http"
 
 	"github.com/my-Sakura/go-sms-server/pkg/utils"
-	"github.com/spf13/viper"
 )
 
 type client struct {
-	Name         string `yaml: "name"`
-	AppCode      string `yaml: "appCode"`
-	TemplateCode string `yaml: "templateCode"`
+	SMSProvider  string
+	AppCode      string
+	TemplateCode string
 }
 
 //New a client
-func NewClient() *client {
-	var c client
-
-	viper.SetConfigFile("../config/config.yaml")
-
-	if err := viper.ReadInConfig(); err != nil {
-		if _, ok := err.(viper.ConfigFileNotFoundError); ok {
-			// Config file not found; ignore error if desired
-		} else {
-			// Config file was found but another error was produced
-		}
+func NewClient(smsProvider, appCode, templateCode string) *client {
+	return &client{
+		SMSProvider:  smsProvider,
+		AppCode:      appCode,
+		TemplateCode: templateCode,
 	}
-
-	if err := viper.Unmarshal(&c); err != nil {
-		panic(fmt.Sprintf("unmarshal error: %v\n", err))
-	}
-
-	return &c
 }
 
 //Send message to mobile
 //length is the length of verification code
 func (c *client) Send(mobile string, length int) error {
 
-	switch c.Name {
+	switch c.SMSProvider {
 	case "dingxin":
 		code := utils.GetCode(length)
 		url := fmt.Sprintf("http://dingxin.market.alicloudapi.com/dx/sendSms?mobile=%s&param=code:%s&tpl_id=%s", mobile, code, c.TemplateCode)
