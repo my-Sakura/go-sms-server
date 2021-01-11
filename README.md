@@ -1,5 +1,7 @@
 # sms-server 
 
+  sms-server could send a custom length verification code 
+
 <a href = https://www.github.com/my-sakura/sms-server><img src = "https://img.shields.io/badge/readme%20style-standard-green"></a>
 <a href = https://www.github.com/my-sakura/sms-server><img src = "https://goreportcard.com/badge/github.com/my-sakura/go-sms-server"></a> 
 
