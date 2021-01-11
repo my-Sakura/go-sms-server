@@ -48,13 +48,13 @@
   
 4.调用 API
 
-  ```
-  client := api.NewClient()
-  err := client.Send(phone_number, verification_code_length)    
-  if err != nil {
-     log.Println(err)
-     }
-  ```
+```
+client := api.NewClient()
+err := client.Send(phone_number, 6)
+if err != nil {
+	log.Println(err)
+}
+```
 
 ## API
 
@@ -64,21 +64,23 @@ To see how the specification has been applied, see the [API](https://github.com/
 
 To see how the specification has been applied, see the [Examples](https://github.com/my-Sakura/sms-server/tree/main/examples) directory.
 
-  ```
-  package main
-   
-  import (
-      "github.com/my-Sakura/sms-server/api"
-  )
-   
-  func main() {
-  client := api.NewClient()
-  err := client.Send(phone_number, 6)    
-  if err != nil {
-     log.Println(err)
-     }
-  }
-  ```
+```
+package main
+
+import (
+	"log"
+
+	"github.com/my-Sakura/sms-server/api"
+)
+
+func main() {
+	client := api.NewClient()
+	err := client.Send(phone_number, 6)
+	if err != nil {
+		log.Println(err)
+	}
+}
+```
 
 ## License
 
