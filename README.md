@@ -71,19 +71,6 @@ import (
 )
 
 func main() {
-
-	[](abc)
-	
-	{abc}
-	
-	[//]: <> (M09DD535F4 是 tianyan 的测试模版)
-	
-	[//]: # (M09DD535F4 是 tianyan 的测试模版)
-	
-	<!---
-	M09DD535F4 是 tianyan 的测试模版
-	-->
-	
 	client := api.NewClient("tianyan", [appCode], "M09DD535F4")
 	err := client.Send([phone_number], 6)
 	if err != nil {
