@@ -11,7 +11,7 @@ import (
 //templateCode:
 func main() {
 	client := api.NewClient("smsProvider", "your_templateCode", "your_appCode")
-	err := client.Send("15032371660", 6)
+	err := client.Send("mobile", 6)
 	if err != nil {
 		log.Println(err)
 	}
