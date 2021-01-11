@@ -10,7 +10,7 @@
   - [dingxin](https://github.com/my-sakura/sms-server#dingxin)
 - [Install](https://github.com/my-Sakura/sms-server#install)
 - [Usage](https://github.com/my-Sakura/sms-server#usage)
-  - [Generator](https://github.com/my-Sakura/sms-server#generator)
+- [result](
 - [API](https://github.com/my-Sakura/sms-server#api)
 - [Examples](https://github.com/my-Sakura/sms-server#example)
 - [License](https://github.com/my-Sakura/sms-server#license)
@@ -55,6 +55,8 @@ if err != nil {
 }
 ```
 
+## succeed
+   ![](https://github.com/my-Sakura/go-sms-server/blob/main/pictures/succeed.png)
 ## API
 
 To see how the specification has been applied, see the [API](https://github.com/my-Sakura/sms-server/tree/main/api) directory.
