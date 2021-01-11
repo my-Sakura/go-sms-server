@@ -1,4 +1,4 @@
-module github.com/my-Sakura/go-sms-server
+module github.com/my-Sakura/sms-server
 
 go 1.15
 
