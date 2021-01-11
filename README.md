@@ -1,7 +1,7 @@
 # sms-server 
 
 <a href = https://www.github.com/my-sakura/sms-server><img src = "https://img.shields.io/badge/readme%20style-standard-green"></a>
-[![Go Report Card](https://goreportcard.com/badge/github.com/my-sakura/sms-server)](https://goreportcard.com/report/github.com/my-sakura/sms-server)
+<a href = https://www.github.com/my-sakura/sms-server><img src = "https://goreportcard.com/badge/github.com/my-sakura/go-sms-server"></a> 
 
 ## Table of Contents
 
@@ -43,14 +43,11 @@
   记录 appCode
   ![](https://github.com/my-Sakura/sms-server/blob/main/pictures/fifth.png)
   
-3.修改 [config.yaml](https://github.com/my-Sakura/sms-server/blob/main/config/config.yaml) 文件
-  将记录下的 smsProvider、templateCode、appCode 写入 config.yaml 文件中
-  
-4.调用 API
+3.调用 API
 
 ```
-client := api.NewClient()
-err := client.Send(phone_number, 6)
+client := api.NewClient([smsProvider], [appCode], [templateCode])
+err := client.Send([phone_number], 6)
 if err != nil {
 	log.Println(err)
 }
@@ -74,8 +71,9 @@ import (
 )
 
 func main() {
-	client := api.NewClient()
-	err := client.Send(phone_number, 6)
+	// M09DD535F4 是 tianyan 的测试模版
+	client := api.NewClient(tianyan, [appCode], "M09DD535F4")
+	err := client.Send([phone_number], 6)
 	if err != nil {
 		log.Println(err)
 	}
