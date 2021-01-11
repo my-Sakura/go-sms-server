@@ -70,7 +70,7 @@ package main
 import (
 	"log"
 
-	"github.com/my-Sakura/sms-server/api"
+	"github.com/my-Sakura/go-sms-server/api"
 )
 
 func main() {
