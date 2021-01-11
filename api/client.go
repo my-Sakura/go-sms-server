@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/my-Sakura/sms-server/pkg/utils"
+	"github.com/my-Sakura/go-sms-server/pkg/utils"
 	"github.com/spf13/viper"
 )
 
