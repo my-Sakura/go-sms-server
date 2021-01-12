@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/badge/readme%20style-standard-green)](https://www.github.com/my-sakura/sms-server)
 [![Go Report Card](https://goreportcard.com/badge/github.com/my-sakura/go-sms-server)](https://goreportcard.com/report/github.com/my-sakura/go-sms-server)
+[![](https://camo.githubusercontent.com/a534d512dd511cc3dbba106a143f49102de27441cefb97421d90dc8d8ea7661f/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f61746f6d69632d64657369676e2d75692e7376673f)](https://github.com/my-Sakura/go-sms-server/blob/main/LICENSE)
 
   sms-server could send a custom length verification code 
   
